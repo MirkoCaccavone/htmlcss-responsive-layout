@@ -23,6 +23,34 @@ h1{
     font-size: 3rem;
 }
 
+/* regole footer */
+
+footer{
+    background-color: #7c69a4;
+    line-height: 30px;
+    padding: 25px 30px;
+    color: white;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+footer a{
+    color: white;
+    margin: 10px;
+
+}
+
+
+
 
 
 /* regole per tablet */
@@ -30,10 +58,15 @@ h1{
     header{
         text-align: left;
     }
+
+    
 }
 
 
 /* regole per desktop */
 @media screen and (min-width:992px){
-    
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
 }
