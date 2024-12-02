@@ -28,7 +28,7 @@ h1{
 .container{
     padding: 20px;
     /* DEBUG */
-    background-color: blue;
+    /* background-color: blue; */
     height: 1000px;
 }
 
@@ -67,6 +67,46 @@ h3{
 
 .difficoltà-ricetta{
     line-height: 25px;
+}
+
+/* regole section social */
+.lista-social{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 25px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 999999px;
+}
+
+i span{
+    display: none;
+} 
+/* colori social */
+.fa-facebook{
+    color: #1a77f3;
+}
+.fa-twitter{
+    color: #009eff;
+}
+
+.fa-instagram{
+    color: #df7b92;
+
+}
+
+.fa-pinterest-p{
+    color: #e62224;
+
+}
+
+.fa-youtube{
+    color: #e62222;
+
 }
 
 /* regole footer */
@@ -126,7 +166,14 @@ footer a{
     .difficoltà-ricetta li{
         flex-basis: 30%;
     }
-    
+
+    /* regole social */
+
+    i{
+        font-size: 15px;
+        padding: 10px 50px;
+    }
+
 }
 
 
@@ -149,10 +196,28 @@ footer a{
 
     /* colonne prima section */
     .col-video{
-        width: 70%;
+        width: 65%;
     }
 
     .col-text{
-        width: 30%;
+        width: 35%;
+    }
+
+    .difficoltà-ricetta{
+        display: block;
+    }
+
+    /* regole social */
+    i{
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+
+    i span{
+        display: inline;
+        font-size: 13px;
+        color: black;
+        margin-left: 5px;
+        font-weight: bold;
     }
 }
