@@ -120,6 +120,14 @@ i span{
 
 /* regole section presentazione */
 
+hr{
+    width: 15%;
+    height: 2px;
+    background-color: #f7a01d;
+    margin: 20px 0;
+    border: none;
+}
+
 .img-presentation{
     text-align: center;
 }
@@ -161,8 +169,6 @@ footer a{
     margin: 10px;
 
 }
-
-
 
 /* regole per tablet */
 @media screen and (min-width:768px){
@@ -206,6 +212,7 @@ footer a{
     #banner{
         display: inline-block;
     }
+
 
     /* regole float */
     .img-presentation img{
